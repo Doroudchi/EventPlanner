@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{1F75798B-0412-4565-B073-2FBDE672D3E4}|Default">
+  <MonoDevelop.Ide.ItemProperties.EventPlanner PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventPlanner/AppShell.xaml">
+    <Files>
+      <File FileName="EventPlanner/MainPage.xaml.cs" />
+      <File FileName="EventPlanner/MainPage.xaml" Line="57" Column="33" />
+      <File FileName="EventPlanner/App.xaml" Line="1" Column="1" />
+      <File FileName="EventPlanner/AppShell.xaml" Line="1" Column="1" />
+      <File FileName="EventPlanner/EventBE.xaml" Line="24" Column="53" />
+      <File FileName="EventPlanner/Events.xaml" Line="45" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EventPlanner" expanded="True">
+            <Node name="EventPlanner" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventPlanner.AddEvent"
+             Title="AddEvent">
+<ScrollView
+        BackgroundColor="#fefeff">
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="CenterAndExpand">
+            <ListView
+                BackgroundColor="#e20512"
+                HeightRequest="80"
+                VerticalOptions="Center"
+                MaximumHeightRequest="150">
+                <ListView.Header>
+                    <StackLayout HeightRequest="60"
+                                 VerticalOptions="Center">
+                        <Grid
+                           VerticalOptions="Center">
+                            <Entry x:Name="entry"
+                                BackgroundColor="#e20512"
+                                 FontFamily="Ubuntu"
+                                 TextColor="#fefeff"
+                                 Placeholder="Search for an event..."
+                                 TextChanged="OnEntryTextChanged"
+                                 Completed="OnEntryCompleted" 
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"/>
+                            <Button
+                            HorizontalOptions="Start"
+                            VerticalOptions="Center"
+                            FontFamily="Ubuntu"
+                            Clicked="OnBackClick"
+                            Margin="20"
+                            TextColor="White"
+                            BackgroundColor="Black"
+                            Text="←"
+                            />
+                        </Grid>
+                    </StackLayout>
+                </ListView.Header>
+            </ListView>
+            <ImageButton
+                Source="ID2.png"
+                HeightRequest="200"
+                HorizontalOptions="Center"
+                Clicked="ToHome"/>
+            <Label
+                Text="Welcome to ID Event Planner"
+                SemanticProperties.HeadingLevel="Level2"
+                TextColor="Black"
+                FontSize="26"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="COOPBtn"
+                BackgroundColor="#e20512"
+                TextColor="Black"
+                Text="Login Using COOP IDP"
+                Clicked="ToEvents"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            <ListView
+                BackgroundColor="#e20512"
+                MaximumHeightRequest="150">
+                <ListView.Header>
+                    <Grid>
+                        <Button Text="ⓘ"
+                                TextColor="White"
+                                FontSize="30"
+                                BackgroundColor="Black"
+                                HorizontalOptions="End"/>
+                        <Image Source="ID.png"
+                           HeightRequest="50"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           Margin="20"/>
+                    </Grid>
+                </ListView.Header>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

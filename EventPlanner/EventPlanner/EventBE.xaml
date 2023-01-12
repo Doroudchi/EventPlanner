@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventPlanner.EventBE"
+             Title="EventBE">
+<ScrollView
+        BackgroundColor="#fefeff">
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="CenterAndExpand">
+            <ListView
+                BackgroundColor="#e20512"
+                HeightRequest="80"
+                VerticalOptions="Center"
+                MaximumHeightRequest="150">
+                <ListView.Header>
+                    <StackLayout HeightRequest="60"
+                                 VerticalOptions="Center">
+                        <Grid
+                           VerticalOptions="Center">
+                            <Entry x:Name="entry"
+                                BackgroundColor="#e20512"
+                                 FontFamily="Ubuntu"
+                                 TextColor="#fefeff"
+                                 Placeholder="Search for an event..."
+                                 TextChanged="OnEntryTextChanged"
+                                 Completed="OnEntryCompleted" 
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"/>
+                            <Button
+                            HorizontalOptions="Start"
+                            VerticalOptions="Center"
+                            FontFamily="Ubuntu"
+                            Clicked="OnBackClick"
+                            Margin="20"
+                            TextColor="White"
+                            BackgroundColor="Black"
+                            Text="←"
+                            />
+                        </Grid>
+                    </StackLayout>
+                </ListView.Header>
+            </ListView>
+            <ImageButton
+                Source="jegenstorf.jpeg"
+                HeightRequest="400"
+                HorizontalOptions="Center"
+                Clicked="ToHome"/>
+            <Grid
+                VerticalOptions="Center">
+                <Button Text="EVENT 1 - BERN - TBA"
+                    TextColor="#e20512"
+                    FontSize="35"
+                    HorizontalOptions="Start"/>
+                <Label Text="Location: TBA
+                       Time: TBA"
+                    TextColor="Black"
+                    FontSize="20"
+                    HorizontalOptions="End"/>
+                </Grid>
+            <Label Text="This here is the event details, it can be as long as you want it to be but I really lack the imagination to actually write a long text.
+                    So what I'm gonna do is to cut this off here."
+                TextColor="Black"
+                FontSize="20"
+                HorizontalOptions="Start"/>
+            <Grid>
+                    <Grid
+                    VerticalOptions="Center">
+                    <Label Text="Are you attending?"
+                        TextColor="Black"
+                        FontSize="20"
+                        HorizontalOptions="Start"/>
+                    <Switch x:Name="switch"
+                            IsToggled="false"
+                            HorizontalOptions="End"
+                            ThumbColor="White"
+                            OnColor="#e20512"/>
+                </Grid>
+                <Grid
+                    VerticalOptions="Center">
+                    <Label x:Name="displayLabel"
+                        Text="Rate the meeting:"
+                        HorizontalOptions="Start"
+                        TextColor="Black"/>
+                    <Slider x:Name="slider"
+                        Margin="0,0,1000,0"
+                        HorizontalOptions="End"
+                        Maximum="10"
+                        Minimum="1"
+                        ValueChanged="OnSliderValueChanged"
+                        ThumbColor="#e20512"
+                        BackgroundColor="Black"/>
+                </Grid>
+                </Grid>
+            <ListView
+                BackgroundColor="#e20512"
+                MaximumHeightRequest="150">
+                <ListView.Header>
+                    <Grid>
+                        <Button Text="ⓘ"
+                                TextColor="White"
+                                FontSize="30"
+                                BackgroundColor="Black"
+                                HorizontalOptions="End"
+                                Clicked="ToInfo"/>
+                        <Image Source="ID.png"
+                           HeightRequest="50"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           Margin="20"/>
+                    </Grid>
+                </ListView.Header>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
