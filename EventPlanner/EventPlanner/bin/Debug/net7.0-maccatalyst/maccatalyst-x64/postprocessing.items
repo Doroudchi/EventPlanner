@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>EventPlanner.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/tehran/Desktop/gibb/322/EventPlanner/EventPlanner/EventPlanner/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/tehran/Desktop/EventPlanner/EventPlanner/EventPlanner/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>EventPlanner.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/tehran/Desktop/gibb/322/EventPlanner/EventPlanner/EventPlanner</SourceProjectPath>
+      <SourceProjectPath>/Users/tehran/Desktop/EventPlanner/EventPlanner/EventPlanner</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

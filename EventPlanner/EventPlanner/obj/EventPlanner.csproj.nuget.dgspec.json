@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tehran/Desktop/gibb/322/EventPlanner/EventPlanner/EventPlanner/EventPlanner.csproj": {}
+    "/Users/tehran/Desktop/EventPlanner/EventPlanner/EventPlanner/EventPlanner.csproj": {}
   },
   "projects": {
-    "/Users/tehran/Desktop/gibb/322/EventPlanner/EventPlanner/EventPlanner/EventPlanner.csproj": {
+    "/Users/tehran/Desktop/EventPlanner/EventPlanner/EventPlanner/EventPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tehran/Desktop/gibb/322/EventPlanner/EventPlanner/EventPlanner/EventPlanner.csproj",
+        "projectUniqueName": "/Users/tehran/Desktop/EventPlanner/EventPlanner/EventPlanner/EventPlanner.csproj",
         "projectName": "EventPlanner",
-        "projectPath": "/Users/tehran/Desktop/gibb/322/EventPlanner/EventPlanner/EventPlanner/EventPlanner.csproj",
+        "projectPath": "/Users/tehran/Desktop/EventPlanner/EventPlanner/EventPlanner/EventPlanner.csproj",
         "packagesPath": "/Users/tehran/.nuget/packages/",
-        "outputPath": "/Users/tehran/Desktop/gibb/322/EventPlanner/EventPlanner/EventPlanner/obj/",
+        "outputPath": "/Users/tehran/Desktop/EventPlanner/EventPlanner/EventPlanner/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
